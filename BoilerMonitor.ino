@@ -58,9 +58,9 @@ BlynkTimer timer;
 void hightemp()
 {
    if (highalarm == 0){
-   Blynk.notify("Boiler High Temp!");
-   Blynk.email("your email", "Boiler High Temp!");
-   highalarm = 1; 
+    Blynk.notify("Boiler High Temp!");
+    Blynk.email("your email", "Boiler High Temp!");
+    highalarm = 1; 
    }
    else
    {
@@ -71,9 +71,9 @@ void hightemp()
 void lowtemp()
 {
    if (lowalarm == 0){
-   Blynk.notify("Boiler Low Temp!");
-   Blynk.email("your email", "Boiler Low Temp!");
-   lowalarm = 1;
+    Blynk.notify("Boiler Low Temp!");
+    Blynk.email("your email", "Boiler Low Temp!");
+    lowalarm = 1;
    }
    else
    {
